@@ -5,13 +5,13 @@ class Google{
     public $client_secret = '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';
 
     // LOCAL
-    // public $registration_callback_url = 'http://localhost/pay4task/?c=user-registration-google-callback';
-    // public $login_callback_url = 'http://localhost/pay4task/?c=user-login-google-callback';
+    public $registration_callback_url = 'http://localhost/pay4task/?c=user-registration-google-callback';
+    public $login_callback_url = 'http://localhost/pay4task/?c=user-login-google-callback';
 
 
     // DEPLOYED
-    public $registration_callback_url = 'https://pay4task.app/?c=user-registration-google-callback';
-    public $login_callback_url = 'https://pay4task.app/?c=user-login-google-callback';
+    // public $registration_callback_url = 'https://pay4task.app/?c=user-registration-google-callback';
+    // public $login_callback_url = 'https://pay4task.app/?c=user-login-google-callback';
     
     function generateUrl($callback_url){
         // Google Client configuration
