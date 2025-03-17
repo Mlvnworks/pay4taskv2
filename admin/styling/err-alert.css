@@ -1,0 +1,20 @@
+#err-alert {
+  position: fixed;
+  left: -500px;
+  bottom: 100px;
+  z-index: 5;
+  padding: 15px 20px;
+  display: grid;
+  place-content: center;
+  border-radius: 10px;
+  transition: left 300ms;
+}
+
+#err-alert p {
+  margin: 0;
+  padding: 0;
+}
+
+.show-err-alert {
+  left: 10px !important;
+}

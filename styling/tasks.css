@@ -1,0 +1,44 @@
+.task-count-details {
+  width: min(200px, 90vw);
+  margin-inline: auto;
+  margin-top: 100px;
+  color: var(--primary);
+  text-align: center;
+  position: relative;
+  padding: 15px;
+}
+
+#task-help {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+#question-title {
+  display: none;
+  border: 1px solid #cccccc47;
+  background-color: var(--dark);
+  margin-left: 10px;
+  border-radius: 5px;
+  color: var(--gray);
+  width: 200px;
+  position: absolute;
+  margin-top: 20px;
+}
+
+#task-count {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.task-details {
+  margin-block: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  #question-title {
+    margin: 0;
+    top: -55px;
+    left: -180px;
+  }
+}

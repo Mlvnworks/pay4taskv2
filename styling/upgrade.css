@@ -1,0 +1,90 @@
+.upgrade-details {
+  text-align: center;
+  background-color: var(--secondary);
+  color: var(--dark);
+  width: min(700px, 90vw);
+  padding: 30px;
+  margin-inline: auto;
+  margin-block: 50px;
+  border-radius: 10px;
+  border: 1px solid #ededed;
+  box-shadow: 0px 0px 10px #ededed;
+}
+
+.upgrade-details #upgrade-price {
+  font-size: 40px;
+  color: var(--primary);
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.upgrade-details #upgrade-price span {
+  font-size: 14px;
+}
+
+.upgrade-details .qr-container {
+  margin-top: 50px;
+}
+
+.upgrade-details #payment-qr,
+.upgrade-details #upload-btn {
+  width: min(300px, 90vw);
+}
+
+.upgrade-details #upload-btn {
+  background-color: var(--primary);
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.upgrade-details #upload-btn:active {
+  scale: 0.92;
+}
+
+#submit-payment-proof-modal > .modal-content {
+  background-color: var(--dark);
+  color: var(--gray);
+  text-align: center;
+}
+
+#submit-payment-proof-modal #receipt-preview {
+  background-color: #22222264;
+  width: 100%;
+  height: 300px;
+  margin-block: 30px;
+}
+
+#receipt-submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--primary);
+  color: var(--dark);
+  border: none;
+  border-radius: 10px;
+}
+
+#payment-receipt-input {
+  position: absolute;
+}
+
+#receipt-preview {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .upgrade-details {
+    font-size: 14px;
+  }
+
+  .upgrade-details #upgrade-price {
+    font-size: 30px;
+  }
+}

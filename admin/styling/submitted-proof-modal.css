@@ -1,0 +1,8 @@
+.thumbnail-container {
+  height: 100%;
+}
+
+#submitted-proof-preview {
+  height: 500px;
+  position: unset;
+}

@@ -1,0 +1,34 @@
+#thumbnail-part {
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
+  text-align: center;
+  background-color: #efefef;
+}
+
+#thumbnail-save-btn,
+#drag-drop-area {
+  width: 300px;
+}
+
+#drag-drop-area {
+  margin-top: 50px;
+  height: 300px;
+  margin-inline: auto;
+  border: 4px dashed #ccc;
+  display: grid;
+  position: relative;
+  place-items: center;
+  text-align: center;
+}
+
+.thumbnail-container {
+  position: absolute;
+  inset: 0;
+  background-color: #efefef;
+}
+
+.thumbnail-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

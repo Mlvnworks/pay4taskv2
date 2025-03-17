@@ -1,0 +1,23 @@
+.label-search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-search-section > div {
+  width: 500px;
+}
+
+@media (max-width: 660px) {
+  .label-search-section h2 {
+    text-align: center;
+  }
+
+  .label-search-section {
+    display: block;
+  }
+
+  .label-search-section > div {
+    width: 95vw;
+  }
+}

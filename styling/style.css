@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary: rgb(250, 180, 3);
+  --secondary: #fff;
+  --gray: #c5c6c7;
+  --dark: #1f2833;
+  --black: #0b0c10;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif !important;
+  /* background: linear-gradient(to bottom, #0b0c10 1px, #5d7899); */
+  background-color: var(--secondary);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}

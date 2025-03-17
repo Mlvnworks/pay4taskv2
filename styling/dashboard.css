@@ -1,0 +1,38 @@
+#card-section {
+  margin-top: 150px;
+}
+
+#card-section > section > div:nth-of-type(2) {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#card-section > section > div:nth-of-type(2) button {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 8px 15px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* For mobile device  */
+@media screen and (max-width: 999px) {
+  #card-section {
+    display: block !important;
+    margin-top: 50px;
+  }
+
+  #card-section > section {
+    margin-block: 50px;
+  }
+
+  #card-section .card {
+    margin-inline: auto;
+  }
+
+  #card-section > section > div:nth-of-type(2) {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,31 @@
+.history-list-item {
+  border-bottom: 1px solid var(--dark);
+  color: var(--dark);
+  margin-block: 50px;
+}
+
+.history-list-item .amount {
+  color: var(--primary);
+  font-size: 33px;
+  margin: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.account-details,
+.method {
+  color: var(--dark);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .history-list-item .amount {
+    font-size: 23px;
+  }
+
+  .account-details,
+  .method {
+    font-size: 13px;
+  }
+}

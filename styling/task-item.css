@@ -1,0 +1,65 @@
+.task-item {
+  width: min(450px, 90vw);
+  margin-inline: auto;
+  background-color: var(--secondary);
+  padding: 15px;
+  border: 1px solid #ededed;
+  color: var(--black);
+  margin-block: 50px;
+  box-shadow: 0px 0px 10px #ededed;
+}
+
+.task-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.task-img-container {
+  width: 100%;
+  height: 300px;
+}
+.task-details {
+  margin-top: 20px;
+}
+
+.task-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.task-instruction-label {
+  color: var(--primary);
+}
+
+.task-details > div:nth-of-type(2) {
+  font-size: 13px;
+}
+
+.task-reward {
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: gold;
+}
+
+.status-completed {
+  color: var(--primary);
+}
+
+.status-failed {
+  color: red;
+}
+
+.submitted-proof-btn,
+.start-task-btn {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 8px 12px;
+  width: min(300px, 90vw);
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+#upgrade-modal {
+  text-align: center;
+  font-size: 23px;
+}
+
+#upgrade-modal > div {
+  background-color: var(--secondary);
+  color: var(--dark);
+  position: relative;
+  padding-block: 50px;
+}
+
+#upgrade-modal #upgrade-price {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+#upgrade-modal #upgrade-price span {
+  font-size: 14px;
+}
+
+#upgrade-modal #upgrade-msg {
+  font-size: 17px;
+}
+
+#upgrade-modal #upgrade-btn {
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 10px 12px;
+  margin-top: 30px;
+}
+
+#upgrade-modal #close-upgrade-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,26 @@
+#navigation {
+  display: flex;
+  margin-top: 50px;
+  width: min(1000px, 95vw);
+  margin-inline: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+#navigation > div {
+  border: 1px #dfdfdf solid;
+  padding: 20px;
+  width: min(400px, 95vw);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navigation > div:hover {
+  background-color: #dfdfdf;
+}
+
+.navigation-item-icon {
+  font-size: 50px;
+}

@@ -1,0 +1,5 @@
+#system-data-page .data-container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}

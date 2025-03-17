@@ -1,0 +1,74 @@
+.card-content {
+  padding-inline: 10px;
+  height: fit-content;
+  position: unset;
+  padding: 20px;
+  width: min(500px, 90vw);
+  margin-inline: auto;
+  margin-top: 50px;
+  position:relative;
+}
+
+.card-content > div > div {
+  text-align: center;
+  margin-block: 50px;
+}
+
+.card-content > div > div h2 {
+  color: var(--primary);
+}
+
+.card-content > div > div p:nth-of-type(1) {
+  color: var(--secondary);
+}
+
+.card-content p {
+  font-size: 16px;
+  color: var(--black);
+  margin: 0;
+}
+
+#user-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#user-id {
+  font-weight: normal;
+}
+
+#btn-logout {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.card-content svg {
+  cursor: pointer;
+}
+
+.card-content svg:active {
+  scale: 0.8;
+}
+
+.task-activities h3 {
+  margin: 100px 0px 50px 0px;
+  color: var(--secondary);
+}
+
+#upgraded-label {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .card p {
+    font-size: 14px !important;
+    padding-inline: 15px;
+  }
+}

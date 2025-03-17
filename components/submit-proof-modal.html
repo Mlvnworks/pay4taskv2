@@ -1,0 +1,65 @@
+<section class="mymodal" id="submit-proof-modal">
+  <div class="modal-cotent">
+    <form
+      action="./"
+      method="POST"
+      enctype="multipart/form-data"
+      id="task-proof-submit-form"
+    >
+      <div class="file-drop-area">
+        <img
+          src="./assets/img/test-task-img.png"
+          alt=""
+          class="d-none"
+          id="proof-preview"
+        />
+        <div>
+          <button type="button" id="select-file-btn" style="width: 200px">
+            Select Image
+          </button>
+          <input
+            type="hidden"
+            name="submit-task-completion-proof"
+            id="task-id-input"
+          />
+          <input
+            class="opacity-0"
+            type="file"
+            name="proof"
+            id="file-input"
+            accept="image/*"
+            required
+          />
+        </div>
+      </div>
+      <button
+        type="button"
+        class="w-100 btn btn-secondary mt-3 d-none"
+        id="change-img-btn"
+      >
+        Change Image
+      </button>
+      <button class="modal-submit-btn" id="submit-btn">Submit</button>
+    </form>
+  </div>
+</section>
+<script src="./js/submit-proof-modal.js"></script>
+<script>
+  const modal = document.querySelector("#submit-proof-modal");
+  const taskProofForm = document.querySelector("#task-proof-submit-form");
+  const submitBtn = document.querySelector("#submit-btn");
+
+  const onFormSubmit = (ev) => {
+    submitBtn.setAttribute("disabled", "true");
+    submitBtn.textContent = "Processing...";
+    taskProofForm.removeEventListener("submit", onFormSubmit);
+  };
+
+  taskProofForm.addEventListener("submit", onFormSubmit);
+
+  modal.addEventListener("click", (e) => {
+    if (e.target.classList.contains("mymodal")) {
+      modal.style.display = "none";
+    }
+  });
+</script>

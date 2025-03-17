@@ -1,0 +1,21 @@
+---- User Requirements --
+
+Email
+Reference Number
+ID  
+Name
+
+
+-- Task Requirements --
+
+Task ID
+Task Instruction
+Task Created(Date)
+Task Task expiration Date (Optional)
+Task app (Facebook, Tiktok, Youtube)
+Task target link
+Task image
+Task Reward
+Task Max Reward (OPtional)
+Task overall spent
+Can view From the task table we can be the submitted images

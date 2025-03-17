@@ -1,0 +1,41 @@
+#main-header {
+  color: var(--secondary);
+  background-color: var(--primary);
+  padding: 12px 10px;
+}
+
+#energy {
+  position: relative;
+}
+
+#energy-output {
+  position: absolute;
+  bottom: -28px;
+  right: 0;
+}
+
+@media (max-width: 600px) {
+  #main-header {
+    margin-bottom: 60px;
+  }
+
+  #right {
+    gap: 20px !important;
+  }
+
+  #main-header h1 {
+    font-size: 19px;
+    align-self: flex-end;
+  }
+
+  #main-header svg {
+    transform: scale(0.8);
+  }
+  #energy #energy-output {
+    font-size: 12px;
+    bottom: -18px;
+  }
+  #main-header {
+    transform: translateY(-10px);
+  }
+}
